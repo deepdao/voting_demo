@@ -1,6 +1,6 @@
-//const ethcon="0x153cb5191a04899222381138358b1d9ffab43c62" // remix, rinkeby, Current version:0.5.1+commit.c8a2cb62.Emscripten.clang
+const ethcon="0x153cb5191a04899222381138358b1d9ffab43c62" // remix, rinkeby, Current version:0.5.1+commit.c8a2cb62.Emscripten.clang
 
-const ethcon="0x61Dd7879220c5BaD67FB7B62E617799158E06B43" // local testnet
+//const ethcon="0x61Dd7879220c5BaD67FB7B62E617799158E06B43" // local testnet
 
 async function executeTransaction(){
     await ethereum.enable();
