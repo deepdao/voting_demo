@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>deepDAO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" style="z-index:100; top:0%; position:absolute">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+                    </header>
+						<div class="content">
+                            <h1>deepDAO</h1>
+                            Vote for your delegates
+						</div>
+
+                    <div id="main">
+						<div class="content">
+							<div class="inner">
+                                <form method="" action="#">
+									<div class="fields">
+										<div class="field">
+                                            Election number
+											<input type="text" name="name" id="name" value="0"/>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="button" value="Vote" class="primary" onclick="executeTransaction()"/></li>
+                                        <li><input type="button" value="Updateinfo" onclick="updateinfo()" /></li>
+									</ul>                                    
+                                    
+                                    <div class="field">
+                                        Contract <a href="https://rinkeby.etherscan.io/address/" id="etherlink" name="etherlink" >(link to etherscan)</a>
+                                        <input type="text" name="contract" id="contract"   />
+                                        Election status<input type="text" name="election" id="election"   />
+                                        Address<input type="text" name="address" id="address"   />
+                                        Ether Balance<input type="text" name="ethbalance" id="ethbalance"  />
+                                        Voting token balance<input type="text" name="votebalance" id="votebalance"  />
+                                        Voting token to give<input type="text" name="voteadd" id="voteadd" value="100" />
+                                    </div>              
+                                    <ul class="actions">                                    
+                                        <li><input type="button" value="Give voting tokens" onclick="give()" /></li>
+                                        <li><input type="button" value="Create election" onclick="createelection()" /></li>
+                                        <li><input type="button" value="Set icon" onclick="seticon()" /></li>
+                                    </ul>                                        
+                                    <ul class="actions">                                    
+                                        
+
+                                    </ul>                                                                            
+								</form>
+
+							</div>
+						</div>
+					
+
+				<!-- Main -->
+				
+						<!-- Contact -->
+			</div>
+
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/abi.json.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
